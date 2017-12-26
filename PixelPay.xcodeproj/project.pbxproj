@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71893721FF2266700085F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893711FF2266700085F4A /* AppDelegate.swift */; };
+		A71893741FF2266700085F4A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893731FF2266700085F4A /* FirstViewController.swift */; };
+		A71893761FF2266700085F4A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893751FF2266700085F4A /* SecondViewController.swift */; };
+		A71893791FF2266700085F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71893771FF2266700085F4A /* Main.storyboard */; };
+		A718937B1FF2266700085F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A718937A1FF2266700085F4A /* Assets.xcassets */; };
+		A718937E1FF2266700085F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A718937C1FF2266700085F4A /* LaunchScreen.storyboard */; };
+		A71893891FF2266700085F4A /* PixelPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893881FF2266700085F4A /* PixelPayTests.swift */; };
+		A71893941FF2266800085F4A /* PixelPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893931FF2266800085F4A /* PixelPayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A71893851FF2266700085F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71893661FF2266600085F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A718936D1FF2266700085F4A;
+			remoteInfo = PixelPay;
+		};
+		A71893901FF2266800085F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71893661FF2266600085F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A718936D1FF2266700085F4A;
+			remoteInfo = PixelPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A718936E1FF2266700085F4A /* PixelPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71893711FF2266700085F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A71893731FF2266700085F4A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A71893751FF2266700085F4A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A71893781FF2266700085F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A718937A1FF2266700085F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A718937D1FF2266700085F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A718937F1FF2266700085F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71893841FF2266700085F4A /* PixelPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71893881FF2266700085F4A /* PixelPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPayTests.swift; sourceTree = "<group>"; };
+		A718938A1FF2266800085F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A718938F1FF2266800085F4A /* PixelPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71893931FF2266800085F4A /* PixelPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPayUITests.swift; sourceTree = "<group>"; };
+		A71893951FF2266800085F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A718936B1FF2266700085F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71893811FF2266700085F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A718938C1FF2266800085F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71893651FF2266600085F4A = {
+			isa = PBXGroup;
+			children = (
+				A71893701FF2266700085F4A /* PixelPay */,
+				A71893871FF2266700085F4A /* PixelPayTests */,
+				A71893921FF2266800085F4A /* PixelPayUITests */,
+				A718936F1FF2266700085F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A718936F1FF2266700085F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A718936E1FF2266700085F4A /* PixelPay.app */,
+				A71893841FF2266700085F4A /* PixelPayTests.xctest */,
+				A718938F1FF2266800085F4A /* PixelPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71893701FF2266700085F4A /* PixelPay */ = {
+			isa = PBXGroup;
+			children = (
+				A71893711FF2266700085F4A /* AppDelegate.swift */,
+				A71893731FF2266700085F4A /* FirstViewController.swift */,
+				A71893751FF2266700085F4A /* SecondViewController.swift */,
+				A71893771FF2266700085F4A /* Main.storyboard */,
+				A718937A1FF2266700085F4A /* Assets.xcassets */,
+				A718937C1FF2266700085F4A /* LaunchScreen.storyboard */,
+				A718937F1FF2266700085F4A /* Info.plist */,
+			);
+			path = PixelPay;
+			sourceTree = "<group>";
+		};
+		A71893871FF2266700085F4A /* PixelPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				A71893881FF2266700085F4A /* PixelPayTests.swift */,
+				A718938A1FF2266800085F4A /* Info.plist */,
+			);
+			path = PixelPayTests;
+			sourceTree = "<group>";
+		};
+		A71893921FF2266800085F4A /* PixelPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A71893931FF2266800085F4A /* PixelPayUITests.swift */,
+				A71893951FF2266800085F4A /* Info.plist */,
+			);
+			path = PixelPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A718936D1FF2266700085F4A /* PixelPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71893981FF2266800085F4A /* Build configuration list for PBXNativeTarget "PixelPay" */;
+			buildPhases = (
+				A718936A1FF2266700085F4A /* Sources */,
+				A718936B1FF2266700085F4A /* Frameworks */,
+				A718936C1FF2266700085F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelPay;
+			productName = PixelPay;
+			productReference = A718936E1FF2266700085F4A /* PixelPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A71893831FF2266700085F4A /* PixelPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A718939B1FF2266800085F4A /* Build configuration list for PBXNativeTarget "PixelPayTests" */;
+			buildPhases = (
+				A71893801FF2266700085F4A /* Sources */,
+				A71893811FF2266700085F4A /* Frameworks */,
+				A71893821FF2266700085F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71893861FF2266700085F4A /* PBXTargetDependency */,
+			);
+			name = PixelPayTests;
+			productName = PixelPayTests;
+			productReference = A71893841FF2266700085F4A /* PixelPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A718938E1FF2266800085F4A /* PixelPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A718939E1FF2266800085F4A /* Build configuration list for PBXNativeTarget "PixelPayUITests" */;
+			buildPhases = (
+				A718938B1FF2266800085F4A /* Sources */,
+				A718938C1FF2266800085F4A /* Frameworks */,
+				A718938D1FF2266800085F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71893911FF2266800085F4A /* PBXTargetDependency */,
+			);
+			name = PixelPayUITests;
+			productName = PixelPayUITests;
+			productReference = A718938F1FF2266800085F4A /* PixelPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71893661FF2266600085F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ClickStaff;
+				TargetAttributes = {
+					A718936D1FF2266700085F4A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A71893831FF2266700085F4A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A718936D1FF2266700085F4A;
+					};
+					A718938E1FF2266800085F4A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A718936D1FF2266700085F4A;
+					};
+				};
+			};
+			buildConfigurationList = A71893691FF2266600085F4A /* Build configuration list for PBXProject "PixelPay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A71893651FF2266600085F4A;
+			productRefGroup = A718936F1FF2266700085F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A718936D1FF2266700085F4A /* PixelPay */,
+				A71893831FF2266700085F4A /* PixelPayTests */,
+				A718938E1FF2266800085F4A /* PixelPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A718936C1FF2266700085F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A718937E1FF2266700085F4A /* LaunchScreen.storyboard in Resources */,
+				A718937B1FF2266700085F4A /* Assets.xcassets in Resources */,
+				A71893791FF2266700085F4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71893821FF2266700085F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A718938D1FF2266800085F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A718936A1FF2266700085F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71893761FF2266700085F4A /* SecondViewController.swift in Sources */,
+				A71893721FF2266700085F4A /* AppDelegate.swift in Sources */,
+				A71893741FF2266700085F4A /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71893801FF2266700085F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71893891FF2266700085F4A /* PixelPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A718938B1FF2266800085F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71893941FF2266800085F4A /* PixelPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A71893861FF2266700085F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A718936D1FF2266700085F4A /* PixelPay */;
+			targetProxy = A71893851FF2266700085F4A /* PBXContainerItemProxy */;
+		};
+		A71893911FF2266800085F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A718936D1FF2266700085F4A /* PixelPay */;
+			targetProxy = A71893901FF2266800085F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A71893771FF2266700085F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71893781FF2266700085F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A718937C1FF2266700085F4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A718937D1FF2266700085F4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A71893961FF2266800085F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A71893971FF2266800085F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A71893991FF2266800085F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A718939A1FF2266800085F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A718939C1FF2266800085F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelPay.app/PixelPay";
+			};
+			name = Debug;
+		};
+		A718939D1FF2266800085F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelPay.app/PixelPay";
+			};
+			name = Release;
+		};
+		A718939F1FF2266800085F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelPay;
+			};
+			name = Debug;
+		};
+		A71893A01FF2266800085F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71893691FF2266600085F4A /* Build configuration list for PBXProject "PixelPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71893961FF2266800085F4A /* Debug */,
+				A71893971FF2266800085F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71893981FF2266800085F4A /* Build configuration list for PBXNativeTarget "PixelPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71893991FF2266800085F4A /* Debug */,
+				A718939A1FF2266800085F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A718939B1FF2266800085F4A /* Build configuration list for PBXNativeTarget "PixelPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A718939C1FF2266800085F4A /* Debug */,
+				A718939D1FF2266800085F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A718939E1FF2266800085F4A /* Build configuration list for PBXNativeTarget "PixelPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A718939F1FF2266800085F4A /* Debug */,
+				A71893A01FF2266800085F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71893661FF2266600085F4A /* Project object */;
+}
