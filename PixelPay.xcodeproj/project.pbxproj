@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6233700598147F8CE7AEFDEE /* Pods_PixelPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A9BB12F76364C7B6686638 /* Pods_PixelPay.framework */; };
 		A71893721FF2266700085F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893711FF2266700085F4A /* AppDelegate.swift */; };
-		A71893741FF2266700085F4A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893731FF2266700085F4A /* FirstViewController.swift */; };
-		A71893761FF2266700085F4A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893751FF2266700085F4A /* SecondViewController.swift */; };
+		A71893761FF2266700085F4A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893751FF2266700085F4A /* DashboardViewController.swift */; };
 		A71893791FF2266700085F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71893771FF2266700085F4A /* Main.storyboard */; };
 		A718937B1FF2266700085F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A718937A1FF2266700085F4A /* Assets.xcassets */; };
-		A718937E1FF2266700085F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A718937C1FF2266700085F4A /* LaunchScreen.storyboard */; };
 		A71893891FF2266700085F4A /* PixelPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893881FF2266700085F4A /* PixelPayTests.swift */; };
 		A71893941FF2266800085F4A /* PixelPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71893931FF2266800085F4A /* PixelPayUITests.swift */; };
+		A71893A71FF2316600085F4A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71893A51FF2316500085F4A /* SWRevealViewController.m */; };
+		A74DFD621FF37DA500ECEFA1 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DFD611FF37DA500ECEFA1 /* DateValueFormatter.swift */; };
+		A74DFD641FF3A91700ECEFA1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DFD631FF3A91600ECEFA1 /* HistoryViewController.swift */; };
+		A74DFD681FF4F86B00ECEFA1 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DFD671FF4F86B00ECEFA1 /* Meal.swift */; };
+		A77111811FFCA45D0078F6F4 /* MainMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771117F1FFCA45D0078F6F4 /* MainMenuCell.swift */; };
+		A77111821FFCA45D0078F6F4 /* MainMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77111801FFCA45D0078F6F4 /* MainMenuCell.xib */; };
+		A77111841FFCD39D0078F6F4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77111831FFCD39D0078F6F4 /* TestViewController.swift */; };
+		A79FF0A31FFB922100C07ED7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79FF0A21FFB922100C07ED7 /* Launch Screen.storyboard */; };
+		A7B921061FF24F6500AA222F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B921051FF24F6500AA222F /* MenuViewController.swift */; };
+		A7BDB0401FF35CD60007F4B2 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BDB0411FF35CD60007F4B2 /* Charts.framework */; };
+		A7C0B1F81FF37B0000680538 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0B1F71FF37B0000680538 /* DemoBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87A9BB12F76364C7B6686638 /* Pods_PixelPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A718936E1FF2266700085F4A /* PixelPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71893711FF2266700085F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A71893731FF2266700085F4A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A71893751FF2266700085F4A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A71893751FF2266700085F4A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		A71893781FF2266700085F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A718937A1FF2266700085F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A718937D1FF2266700085F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A718937F1FF2266700085F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A71893841FF2266700085F4A /* PixelPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71893881FF2266700085F4A /* PixelPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPayTests.swift; sourceTree = "<group>"; };
@@ -49,6 +58,22 @@
 		A718938F1FF2266800085F4A /* PixelPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71893931FF2266800085F4A /* PixelPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPayUITests.swift; sourceTree = "<group>"; };
 		A71893951FF2266800085F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71893A41FF2316400085F4A /* PixelPay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixelPay-Bridging-Header.h"; sourceTree = "<group>"; };
+		A71893A51FF2316500085F4A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A71893A61FF2316600085F4A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A74DFD611FF37DA500ECEFA1 /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		A74DFD631FF3A91600ECEFA1 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A74DFD671FF4F86B00ECEFA1 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		A771117F1FFCA45D0078F6F4 /* MainMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuCell.swift; sourceTree = "<group>"; };
+		A77111801FFCA45D0078F6F4 /* MainMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuCell.xib; sourceTree = "<group>"; };
+		A77111831FFCD39D0078F6F4 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A79FF0A21FFB922100C07ED7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A7B921051FF24F6500AA222F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A7BDB03C1FF35C020007F4B2 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BDB0411FF35CD60007F4B2 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C0B1F71FF37B0000680538 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		AA86DA9F77D1499771121DEA /* Pods-PixelPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixelPay/Pods-PixelPay.debug.xcconfig"; sourceTree = "<group>"; };
+		F7BA1EDDA419E05E33AC5F50 /* Pods-PixelPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelPay/Pods-PixelPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BDB0401FF35CD60007F4B2 /* Charts.framework in Frameworks */,
+				6233700598147F8CE7AEFDEE /* Pods_PixelPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +106,13 @@
 		A71893651FF2266600085F4A = {
 			isa = PBXGroup;
 			children = (
+				A7BDB03C1FF35C020007F4B2 /* Charts.framework */,
 				A71893701FF2266700085F4A /* PixelPay */,
 				A71893871FF2266700085F4A /* PixelPayTests */,
 				A71893921FF2266800085F4A /* PixelPayUITests */,
 				A718936F1FF2266700085F4A /* Products */,
+				AD9AACEAB4BEF886E982EBB6 /* Pods */,
+				A9BBED8514F97276BE11EFB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +129,21 @@
 		A71893701FF2266700085F4A /* PixelPay */ = {
 			isa = PBXGroup;
 			children = (
-				A71893711FF2266700085F4A /* AppDelegate.swift */,
-				A71893731FF2266700085F4A /* FirstViewController.swift */,
-				A71893751FF2266700085F4A /* SecondViewController.swift */,
+				A74DFD661FF4F6A200ECEFA1 /* Object */,
+				A71893A31FF2312A00085F4A /* SWReveal */,
 				A71893771FF2266700085F4A /* Main.storyboard */,
 				A718937A1FF2266700085F4A /* Assets.xcassets */,
-				A718937C1FF2266700085F4A /* LaunchScreen.storyboard */,
 				A718937F1FF2266700085F4A /* Info.plist */,
+				A71893711FF2266700085F4A /* AppDelegate.swift */,
+				A71893751FF2266700085F4A /* DashboardViewController.swift */,
+				A7B921051FF24F6500AA222F /* MenuViewController.swift */,
+				A7C0B1F71FF37B0000680538 /* DemoBaseViewController.swift */,
+				A74DFD611FF37DA500ECEFA1 /* DateValueFormatter.swift */,
+				A74DFD631FF3A91600ECEFA1 /* HistoryViewController.swift */,
+				A79FF0A21FFB922100C07ED7 /* Launch Screen.storyboard */,
+				A771117F1FFCA45D0078F6F4 /* MainMenuCell.swift */,
+				A77111801FFCA45D0078F6F4 /* MainMenuCell.xib */,
+				A77111831FFCD39D0078F6F4 /* TestViewController.swift */,
 			);
 			path = PixelPay;
 			sourceTree = "<group>";
@@ -128,6 +166,42 @@
 			path = PixelPayUITests;
 			sourceTree = "<group>";
 		};
+		A71893A31FF2312A00085F4A /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				A71893A61FF2316600085F4A /* SWRevealViewController.h */,
+				A71893A51FF2316500085F4A /* SWRevealViewController.m */,
+				A71893A41FF2316400085F4A /* PixelPay-Bridging-Header.h */,
+			);
+			path = SWReveal;
+			sourceTree = "<group>";
+		};
+		A74DFD661FF4F6A200ECEFA1 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A74DFD671FF4F86B00ECEFA1 /* Meal.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		A9BBED8514F97276BE11EFB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BDB0411FF35CD60007F4B2 /* Charts.framework */,
+				87A9BB12F76364C7B6686638 /* Pods_PixelPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD9AACEAB4BEF886E982EBB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA86DA9F77D1499771121DEA /* Pods-PixelPay.debug.xcconfig */,
+				F7BA1EDDA419E05E33AC5F50 /* Pods-PixelPay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A71893981FF2266800085F4A /* Build configuration list for PBXNativeTarget "PixelPay" */;
 			buildPhases = (
+				7E707E8DABC5875498D31B94 /* [CP] Check Pods Manifest.lock */,
 				A718936A1FF2266700085F4A /* Sources */,
 				A718936B1FF2266700085F4A /* Frameworks */,
 				A718936C1FF2266700085F4A /* Resources */,
+				0C254B3B541B0F0F75C5950C /* [CP] Embed Pods Frameworks */,
+				FBEE3040CD83F49EC7EAE417 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +273,7 @@
 				TargetAttributes = {
 					A718936D1FF2266700085F4A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					A71893831FF2266700085F4A = {
@@ -235,9 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A718937E1FF2266700085F4A /* LaunchScreen.storyboard in Resources */,
+				A79FF0A31FFB922100C07ED7 /* Launch Screen.storyboard in Resources */,
 				A718937B1FF2266700085F4A /* Assets.xcassets in Resources */,
 				A71893791FF2266700085F4A /* Main.storyboard in Resources */,
+				A77111821FFCA45D0078F6F4 /* MainMenuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +336,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C254B3B541B0F0F75C5950C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PixelPay/Pods-PixelPay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixelPay/Pods-PixelPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E707E8DABC5875498D31B94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEE3040CD83F49EC7EAE417 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixelPay/Pods-PixelPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A718936A1FF2266700085F4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71893761FF2266700085F4A /* SecondViewController.swift in Sources */,
+				A7B921061FF24F6500AA222F /* MenuViewController.swift in Sources */,
+				A74DFD641FF3A91700ECEFA1 /* HistoryViewController.swift in Sources */,
+				A74DFD681FF4F86B00ECEFA1 /* Meal.swift in Sources */,
+				A71893761FF2266700085F4A /* DashboardViewController.swift in Sources */,
+				A71893A71FF2316600085F4A /* SWRevealViewController.m in Sources */,
+				A7C0B1F81FF37B0000680538 /* DemoBaseViewController.swift in Sources */,
 				A71893721FF2266700085F4A /* AppDelegate.swift in Sources */,
-				A71893741FF2266700085F4A /* FirstViewController.swift in Sources */,
+				A77111841FFCD39D0078F6F4 /* TestViewController.swift in Sources */,
+				A77111811FFCA45D0078F6F4 /* MainMenuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74DFD621FF37DA500ECEFA1 /* DateValueFormatter.swift in Sources */,
 				A71893891FF2266700085F4A /* PixelPayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,14 +446,6 @@
 				A71893781FF2266700085F4A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A718937C1FF2266700085F4A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A718937D1FF2266700085F4A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,13 +560,17 @@
 		};
 		A71893991FF2266800085F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA86DA9F77D1499771121DEA /* Pods-PixelPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixelPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PixelPay/SWReveal/PixelPay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,13 +578,16 @@
 		};
 		A718939A1FF2266800085F4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BA1EDDA419E05E33AC5F50 /* Pods-PixelPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixelPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickstaff.PixelPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PixelPay/SWReveal/PixelPay-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
